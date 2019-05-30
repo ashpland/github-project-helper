@@ -1,5 +1,4 @@
 {
-
   "manifest_version": 2,
   "name": "Project Helper",
   "version": "1.0",
@@ -10,7 +9,7 @@
     "gecko": {
       "id": "github-project-helper@ashp.land"
     }
-  }
+  },
 
   "content_scripts": [
     {
@@ -18,5 +17,4 @@
       "js": ["project-helper.js"]
     }
   ]
-
 }
