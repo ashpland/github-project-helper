@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Project Helper",
+  "version": "1.0",
+
+  "description": "Makes filtering by user easier in GitHub projects.",
+
+  "applications": {
+    "gecko": {
+      "id": "github-project-helper@ashp.land"
+    }
+  }
+
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/orgs/*/projects/*"],
+      "js": ["project-helper.js"]
+    }
+  ]
+
+}
